@@ -40,3 +40,9 @@ body {
     margin: 0;
     font-family: sans-serif;
 }
+
+th,
+td {
+  border: 1px solid gray;
+  padding: 8px 10px;
+}
