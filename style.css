@@ -1,0 +1,42 @@
+.app-banner {
+    /* 135degで左上から右下への斜めにし、青を少し太めに調整しています */
+    background: repeating-linear-gradient(135deg,
+            #2196f3,
+            #2196f3 25px,
+            #ff9100 25px,
+            #ff9100 40px);
+
+    /* 文字の背景に白いボックスを敷いて、ボーダーと重なっても読みやすくします */
+    color: #000000;
+    padding: 15px 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    /* 下側に少し影をつけて立体感を出します */
+}
+
+.app-banner h1 {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.95);
+    /* 文字の後ろの白い座布団 */
+    margin: 0;
+    padding: 8px 25px;
+    border-radius: 6px;
+    /* 角を少し丸くする */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+}
+
+.app-content {
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+/* 全体の基本設定 */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
